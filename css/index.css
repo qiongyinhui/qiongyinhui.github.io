@@ -1,0 +1,103 @@
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 14px;
+}
+ 
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+  padding: 20px 0px 20px 0px;
+  line-height: 1.5; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+ 
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+h2{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.title  { 
+   margin: 0;
+}
+
+.title img{
+  margin: 0px;
+  width: 120px;
+  padding: 0px;
+}
+
+.item_bg{
+  background-color: #fafafa;
+}
+
+.container {
+  width: auto;
+  max-width: 960px;
+  padding: 0 15px;
+}
+
+.good .item{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+
+
+.good .item img{
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+}
+
+.factory .item{
+  width:60%;
+  text-align: center;
+}
+
+.slide .content{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
