@@ -101,3 +101,15 @@ h2{
   align-items: center;
   justify-content: center;
 }
+
+.contact{
+  padding-bottom: 20px;
+}
+
+.contact .address tr td:nth-child(1){
+  width: 100px;
+}
+
+.contact .phone tr td:nth-child(2){
+  padding-left: 15px;
+}
